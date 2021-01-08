@@ -1,3 +1,4 @@
+// khong copy file nay nha Loi
 // imports
 const fs = require('fs');
 const path = require('path');
