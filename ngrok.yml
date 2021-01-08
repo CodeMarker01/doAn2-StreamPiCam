@@ -1,4 +1,11 @@
+authtoken: 1k3tNxflmPQtQxX11niPjz4Zj73_6LCKN3BnQvLyDjR2xJ5ns
+log: ngrok.log
 tunnels:
-  app:
-    proto: http  # exposes an HTTP end point
-    addr: 3000   # uses local port 3000
+  first:
+    addr: 3000
+    proto: http
+    bind_tls: true
+  second:
+    addr: 9000
+    proto: http
+    bind_tls: true
